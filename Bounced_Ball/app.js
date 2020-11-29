@@ -23,11 +23,8 @@ class App {
         // ball > position x, position y, radius, speed
         this.ball = new Ball(this.stageWidth, this.stageHeight, 60, 15, this.block);
 
-
         // set animation
-        window.requestAnimationFrame(this.animate.bind(this));
-        
-        
+        window.requestAnimationFrame(this.animate.bind(this));        
     }
     
     resize() {
