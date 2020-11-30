@@ -2,7 +2,7 @@
 
 ## Result
 <p align="center">
-  <img src="../img/ball_bounced.PNG" alt="" width="750px">
+  <img src="../img/ball_bounced.gif" alt="" width="750px">
 </p>
 
 ## Copyright
