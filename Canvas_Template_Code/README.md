@@ -1,8 +1,8 @@
-# Bounced Ball
+# Title
 
 <!-- ## Result -->
 <!-- <p align="center">
-  <img src="../img/ball_bounced.PNG" alt="" width="750px">
+  <img src="../img/title.gif" alt="" width="750px">
 </p> -->
 
 ## Copyright
