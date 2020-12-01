@@ -1,7 +1,7 @@
 # Title
 
-<!-- ## Result -->
-<!-- <p align="center">
+<!-- ## Result
+<p align="center">
   <img src="../img/title.gif" alt="" width="750px">
 </p> -->
 
