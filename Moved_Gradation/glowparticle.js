@@ -53,7 +53,7 @@ export class GlowParticle{
         g.addColorStop(1, `rgba(${this.rgb.r}, ${this.rgb.g}, ${this.rgb.b}, 0)`);
         ctx.fillStyle = g;
         
-        ctx.fillStyle = `rgba(${this.rgb.r}, ${this.rgb.g}, ${this.rgb.b}, 1)`;
+        // ctx.fillStyle = `rgba(${this.rgb.r}, ${this.rgb.g}, ${this.rgb.b}, 1)`;
         ctx.arc(this.x, this.y, this.radius, 0, PI2, false);
         ctx.fill();
     }
