@@ -15,7 +15,7 @@ class App{
         window.addEventListener('resize', this.resize.bind(this), false);
         this.resize();
 
-        requestAnimationFrame(this.animate.bind(this));
+        window.requestAnimationFrame(this.animate.bind(this));
     }
 
     resize(){
@@ -33,7 +33,7 @@ class App{
         this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);
         this.waveGroup.draw(this.ctx);
 
-        requestAnimationFrame(this.animate.bind(this));
+        window.requestAnimationFrame(this.animate.bind(this));
     }
 }
 

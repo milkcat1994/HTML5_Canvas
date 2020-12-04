@@ -9,7 +9,7 @@ class App{
         window.addEventListener('resize', this.resize.bind(this), false);
         this.resize();
 
-        requestAnimationFrame(this.animate.bind(this));
+        window.requestAnimationFrame(this.animate.bind(this));
     }
 
     resize(){
@@ -23,7 +23,7 @@ class App{
 
     animate(t){
         this.ctx.clearRect(0, 0, this.stageWidth, this.stageHeight);
-        requestAnimationFrame(this.animate.bind(this));
+        window.requestAnimationFrame(this.animate.bind(this));
     }
 }
 
